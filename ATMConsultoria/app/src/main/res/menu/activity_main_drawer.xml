@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"><!--id nao deve ser mudado, senao barra de navegaçao nao funciona/buga!!!-->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_inbox_white"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_services_white"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_clients_white"
+            android:title="Clients" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_white"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_white"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

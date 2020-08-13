@@ -1,0 +1,1 @@
+Android apps that show the basics of some of its components. They were developed at the "Desenvolvimento Android Completo 2020 - Crie 18 Apps" Android/Java programming course, lectured by Jamilton Damasceno at Udemy.(https://www.udemy.com/course/curso-de-desenvolvimento-android-oreo/)
